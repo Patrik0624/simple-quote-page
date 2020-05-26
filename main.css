@@ -4,10 +4,10 @@ body {
   text-align: center;
 }
 #a {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-family: "Open Sans";
-  margin: 10rem 3rem 4rem;
+  margin: 10rem 3rem 3rem;
   letter-spacing: 0.1rem;
 }
 #b {
@@ -15,4 +15,9 @@ body {
   font-style: italic;
   font-weight: bold;
   font-family: "Playfair Display"
+}
+@media screen and (max-width:1389px) {
+  #a {
+    font-size: 2rem;
+  }
 }
